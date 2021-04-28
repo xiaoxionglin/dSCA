@@ -13,6 +13,17 @@ This will usually also yield small groups of dominant neurons, which serves as a
 If your data doesn't have single neurons, then consider this other interpretation: SCA finds the hypothetical source response profile
 
 
+File description:
+- dSCAdemo.ipynb
+demo for the pipeline. dependent on other files.
+- dSCA.py
+it the dSCA method, to be imported
+- demo/
+a folder to store the grid search result in the demo
+- 
+
+
+
 prerequisite:
 
 - tensorflow2
