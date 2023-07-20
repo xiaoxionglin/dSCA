@@ -32,7 +32,3 @@ prerequisite:
 
 
 
-technical note:
-
-for some reason tensorflow2 doesn't work when directly used in jupyter .ipynb file, but works when wrapped in a function like in the demo.
-in ipython console directly using tensorflow is ok but not the wrapped function.

@@ -19,7 +19,7 @@ def Learn(X,X2=None,test=False,n_components=3,alpha=0.5,n_iter=600,lossname='los
         return(los) 
 
     def lossEla(): 
-        los=0.5*tf.norm(X-tf.matmul(U,V),ord=2)**2+tf.math.scalar_mul(alpha,tf.norm(V,ord=1))+tf.math.scalar_mul(0.01,tf.norm(V,ord=2))**2 
+        los=0.5*tf.norm(X-tf.matmul(U,V),ord=2)**2+tf.math.scalar_mul(alpha,tf.norm(V,ord=1))+tf.math.scalar_mul(0.05*alpha,tf.norm(V,ord=2))**2 
         return(los) 
 
     def err():
