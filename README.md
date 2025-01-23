@@ -30,5 +30,17 @@ prerequisite:
 
 
 
+# paper link
 
+https://www.science.org/doi/full/10.1126/sciadv.adh8685
 
+@article{lin2023neuronal,
+  title={The neuronal implementation of representational geometry in primate prefrontal cortex},
+  author={Lin, Xiao-Xiong and Nieder, Andreas and Jacob, Simon N},
+  journal={Science Advances},
+  volume={9},
+  number={50},
+  pages={eadh8685},
+  year={2023},
+  publisher={American Association for the Advancement of Science}
+}
